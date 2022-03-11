@@ -12,6 +12,7 @@ main {
 
 .container {
     padding-top: 2em;
+    height: 400px;
 }
 
 .caroussel-height {
@@ -20,13 +21,35 @@ main {
 }
 
 .left {
+    display: table;
     width: 25%;
-    background-color: bisque;
+    /* background-color: bisque; */
+    text-align: right;
+
+    height: 100%;
+    line-height: 400px;
 }
 
 .right {
+    display: table;
     width: 25%;
-    background-color: bisque;
+    /* background-color: bisque; */
+    text-align: right;
+
+    height: 100%;
+    line-height: 400px;
+}
+
+.txt-right {
+    float: left;
+}
+
+h3 {
+    margin: 1em;
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .image {
